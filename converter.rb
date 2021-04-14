@@ -1,11 +1,15 @@
 class Converter
-  # def in_to_cm(value)
-  #   value * 2.54
-  # end
+  def in_to_cm(value)
+    value * 2.54
+  end
 
-  # def l_to_ml(value)
-  #   value * 1000
-  # end
+  def l_to_ml(value)
+    value * 1000
+  end
+
+  private
+
+  def bla; end
 end
 
 # For refactoring
